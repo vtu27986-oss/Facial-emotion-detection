@@ -1,0 +1,8 @@
+{
+  "name": "Facial Emotion Detection",
+  "description": "Minor project on Facial Emotion Detection Using Machine Learning by D Naga Chandu (Roll 27986, Vel Tech University, CSE-AIDS). Detects faces and classifies facial expressions into seven emotion categories.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
