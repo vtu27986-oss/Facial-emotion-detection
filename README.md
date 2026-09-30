@@ -91,7 +91,7 @@ python -m venv venv
 ### Step 3: Install Required Dependencies
 ```powershell
 python -m pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r backend/requirements.txt
 ```
 
 ### Step 4: Run the Backend Server

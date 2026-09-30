@@ -165,7 +165,7 @@ python -m venv venv
             <div className="relative group">
               <pre className="p-3 rounded-lg bg-slate-950 border border-slate-800 text-slate-200 font-mono overflow-x-auto">
 {`pip install --upgrade pip
-pip install -r requirements.txt`}
+pip install -r backend/requirements.txt`}
               </pre>
               <button
                 onClick={() => copyToClipboard('pip install --upgrade pip\npip install -r requirements.txt', 'step3')}
