@@ -1,0 +1,7 @@
+# Ignore Python backend files during Vercel Frontend build
+backend/
+requirements.txt
+tests/
+__pycache__/
+*.py
+

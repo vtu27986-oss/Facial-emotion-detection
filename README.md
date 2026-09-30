@@ -116,6 +116,15 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
+### Step 7: Deploying to Vercel (One-Click)
+1. Push this project to GitHub.
+2. In Vercel, click **Import Project** and select your repository.
+3. Vercel will automatically read `vercel.json` and `.vercelignore`:
+   - **Framework Preset:** Vite
+   - **Build Command:** `vite build` (or `npm run build`)
+   - **Output Directory:** `dist`
+4. The `.vercelignore` file prevents Vercel from trying to build Python Rust native wheels (`maturin` / `pydantic-core`), letting the browser-accelerated WebAssembly model run directly on Vercel's global CDN!
+
 ---
 
 ## 4. API Specification
